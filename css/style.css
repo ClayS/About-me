@@ -1,14 +1,4 @@
-@media only screen and (max-width: 500px) {
-  .masthead {
-    padding: 3em 0;
-  }
-
-  .masthead-heading {
-    font-size: 3em;
-  }
-}
-
-body {
+ body {
   /* Typography Declarations */
   color: #222222;
   font-size: 1em;
@@ -92,4 +82,15 @@ section > h1 {
     max-width: 1200em;
     background-color: #FF6F0D;
     padding: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+
+  .masthead-heading {
+    font-size: 3em;
+    color: red;
+  }
 }
